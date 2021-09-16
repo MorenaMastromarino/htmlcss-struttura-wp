@@ -57,3 +57,8 @@ main .jumbotron {
   margin: 20px 2%;
 }
 
+/* FOOTER */
+footer {
+  background-color: #8801FE;
+  height: 70px;
+}
