@@ -29,7 +29,31 @@ main .jumbotron {
 }
 
 .main-content {
-  height: 500px;
+  min-height: 600px;
   margin-bottom: 10px;
   background-color: #0086FF;
 }
+
+.main-content * {
+  background-color: #ABCFE7;
+}
+
+ .main-content .top-bar{
+   height: 70px;
+ } 
+
+.fl {
+  float: left;  
+  min-height: 490px;
+}
+
+.l-column, .r-column {
+  width: 20%;
+  margin: 20px 0;
+}
+
+.c-column {
+  width: 56%;
+  margin: 20px 2%;
+}
+
